@@ -1,0 +1,25 @@
+body{
+    width: 400px;
+    height: 300px;
+    display:grid;
+    background-color:#5E2D8C;
+    place-items:center;
+    position:relative;
+  }
+  div {
+    width: 200px;
+    height: 120px;
+    border:30px solid #42A5F5;
+    position:absolute;
+  }
+  div:before{
+    display:block;
+    content:"";
+    width:86px;
+    height:60px;
+    background-color:#42A5F5;
+    position:absolute;
+    top:30px;
+    left:-1px;
+    box-shadow:116px 0px 0px #42A5F5;
+  }
